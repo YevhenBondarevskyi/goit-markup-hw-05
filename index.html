@@ -300,8 +300,82 @@
     </svg></a></li>
 </ul>
 </div>
+<!-- #region subscribe -->
+<div class="send-footer">
+    <p class="send-title">Subscribe</p>
+    <form class="send-form">
+        <label class="send-label" for="send-email">
+        <input class="send-input" name="e-mail" id="send-email" type="email" placeholder="E-mail"/>
+        </label>
+        <button class="send-btn" type="submit">Subscribe
+        <svg class="send-icon" width="24" height="24">
+        <use href="./images/icons.svg#icon-send"></use>
+        </svg>
+        </button>
+    </form>
+</div>
+<!-- #endregion subscribe -->
 </div>
 </footer>
 <!-- #endregion footer-->
+<!-- #region backdrop-->
+ <div class="backdrop">
+    <div class="modal">
+       <button type="button" class="close-btn">
+        <svg class="close-icon" width="8" height="8">
+        <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+       </button>
+    <p class="modal-title">Leave your contacts and we will call you back</p>
+    <form class="modal-window">
+        <div class="modal-window-box">
+            <label class="modal-window-label" for="user-name">Name
+            </label>
+            <div class="modal-window-content">
+                <input class="modal-window-input" id="user-name" type="text" name="user-name"
+                    required>
+                <svg class="modal-window-icon" width="18" height="24">
+                    <use href="./images/icons.svg#icon-person"></use>
+                </svg>
+            </div>
+        </div>
+        <div class="modal-window-box">
+            <label class="modal-window-label" for="user-tel">Phone
+            </label>
+            <div class="modal-window-content">
+                <input class="modal-window-input" id="user-tel" type="tel" name="user-tel" required>
+                <svg class="modal-window-icon" width="18" height="24">
+                    <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+            </div>
+        </div>
+        <div class="modal-window-box">
+            <label class="modal-window-label" for="user-email">Email
+            </label>
+            <div class="modal-window-content">
+                <input class="modal-window-input" id="user-email" type="email" name="user-email"
+                    required>
+                <svg class="modal-window-icon" width="18" height="24">
+                    <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+            </div>
+        </div>
+        <div class="modal-textarea">
+            <label class="modal-window-label" for="user-comment">Comment</label>
+            <textarea class="modal-comment" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
+        </div>
+        <div class="modal-window-checkbox-content">
+            <input class="checkbox visually-hidden" type="checkbox" id="user-privacy" value="true" name="user-privacy">
+            <label class="checkbox-label" for="user-privacy"><span class="custom-checkbox"><svg width="10" height="8">
+                        <use href="./images/icons.svg#icon-accept"></use>
+                    </svg></span>I accept the terms and conditions of the <a class="label-link" href="">Privacy
+                    Policy</a></label>
+        </div>
+        <button class="modal-window-btn" type="submit">Send</button>
+    </form>
+    </div>
+ </div>
+<!-- #endregion backdrop-->
+<!--  -->
 </body>
 </html>
